@@ -8,6 +8,7 @@ Add to your snmpd.conf on the remotehost:
 extend zfs_getdisk /scripts/zpool.sh
 
 Script in /scripts/zpool.sh:
+
 ###############################
 
 #!/bin/sh
