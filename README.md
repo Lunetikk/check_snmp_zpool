@@ -9,10 +9,13 @@ extend zfs_getdisk /scripts/zpool.sh
 
 Script in /scripts/zpool.sh:
 ###############################
+
 #!/bin/sh
 
 ZPOOL=`/sbin/zpool list | tr -s ' ' | sed 1d | sed 2d`
+
 echo $ZPOOL
+
 ###############################
 
 I might edit the whole script to be dynamic later -> grep for a specific pool
