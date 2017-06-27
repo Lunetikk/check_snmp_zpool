@@ -52,7 +52,7 @@ echo "Usage: check_snmp_zpool -H <HOSTNAME/IP> -c <COMMUNITYSTRING>"
 echo ""
 echo "Options:"
 echo " -H <HOSTNAME/IP>         = Server Hostname/IP"
-echo " -c <COMMUNITYSTRING>             = Communitystringi"
+echo " -c <COMMUNITYSTRING>             = Communitystring"
 echo " -h                               = This help"
 
 ;;
